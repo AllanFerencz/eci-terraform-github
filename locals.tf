@@ -35,5 +35,12 @@ locals {
       topics             = ["go"]
       visibility         = "public"
     }
+    "eci-terraform-service" = {
+      description        = "Example Terraform Go Service"
+      gitignore_template = "Terraform"
+      name               = "eci-terraform-service"
+      topics             = ["terraform", "go"]
+      visibility         = "public"
+    }
   }
 }
