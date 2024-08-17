@@ -2,7 +2,7 @@ module "repository" {
   for_each = local.repos
 
   source  = "ALT-F4-LLC/repository/github"
-  version = "0.5.0"
+  version = "0.8.0"
 
   description        = each.value.description
   gitignore_template = each.value.gitignore_template

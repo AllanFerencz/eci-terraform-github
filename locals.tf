@@ -42,5 +42,12 @@ locals {
       topics             = ["terraform", "go"]
       visibility         = "public"
     }
+    "af-serverless-terraform" = {
+      description        = "Example Serverless Terraform Project"
+      gitignore_template = "Terraform"
+      name               = "af-serverless-terraform"
+      topics             = ["terraform", "serverless"]
+      visibility         = "public"
+    }
   }
 }
